@@ -60,7 +60,7 @@ const ContactPage = () => {
               <div className="bg-[#e0f7ef] text-[#00897b] p-3 rounded-full">
                 <Mail size={24} />
               </div>
-              <p className="font-semibold text-2xl text-gray-800 hover:text-[#00897b] transition-colors">
+              <p className="font-bold text-lg md:text-2xl text-gray-800 hover:text-[#00897b] transition-colors">
                 harishgupta@kriworld.com
               </p>
             </div>
@@ -70,7 +70,7 @@ const ContactPage = () => {
               <div className="bg-[#e0f7ef] text-[#00897b] p-3 rounded-full">
                 <MapPin size={24} />
               </div>
-              <p className="font-semibold text-2xl text-gray-800">
+              <p className="font-bold text-lg md:text-2xl text-gray-800">
                 Sarai Khawaja, Faridabad, Haryana, 121003
               </p>
             </div>
@@ -80,7 +80,7 @@ const ContactPage = () => {
               <div className="bg-[#e0f7ef] text-[#00897b] p-3 rounded-full">
                 <Phone size={24} />
               </div>
-              <p className="font-semibold text-2xl text-gray-800 hover:text-[#00897b] transition-colors">
+              <p className="font-bold text-lg md:text-2xl text-gray-800 hover:text-[#00897b] transition-colors">
                 +91 870-066-1267
               </p>
             </div>
