@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Swiper CSS imports */
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+/* 🌐 Standard Spacing for All Sections */
+.section {
+  padding-top: 4rem; /* Tailwind equivalent of py-16 */
+  padding-bottom: 4rem;
+}
+
+@keyframes waveMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes waveMoveSlow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
+
+.animate-wave {
+  animation: waveMove 10s linear infinite;
+}
+
+.animate-wave-slow {
+  animation: waveMoveSlow 20s linear infinite;
+}
+@keyframes waveMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-wave {
+  animation: waveMove 10s linear infinite;
+}
+
+
