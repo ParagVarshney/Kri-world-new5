@@ -32,32 +32,31 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md py-[25px]" : "bg-transparent py-6"
+        isScrolled ? "bg-white shadow-md py-[20px]" : "bg-transparent py-6"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-        {/* Logo with text below */}
-        <div className="flex flex-col items-center md:items-start">
+        {/* Logo and Company Name */}
+        <div className=" items-center gap-3">
           <img
             src="/krilogo.png"
             alt="Logo"
             className={`object-contain transition-all duration-300 ${
-              isScrolled ? "h-14" : "h-20"
-            }`} // increased size
+              isScrolled ? "h-12" : "h-16"
+            }`}
           />
-          {/* Company name */}
-          <div className="hidden md:block mt-2 text-left">
+          <div className="text-left">
             <p
-              className={`font-bold tracking-wide ${
+              className={`font-bold leading-tight ${
                 isScrolled
-                  ? "text-green-600 text-xl"
-                  : "text-blue-800 text-2xl"
+                  ? "text-green-600 text-sm md:text-xl"
+                  : "text-blue-800 text-base md:text-2xl"
               }`}
             >
               KRIWORLD ITECH PRIVATE LIMITED
             </p>
             <p
-              className={`text-sm ${
+              className={`text-xs md:text-sm ${
                 isScrolled ? "text-gray-500" : "text-gray-700"
               }`}
             >
